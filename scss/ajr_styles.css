@@ -1,0 +1,250 @@
+body {
+  margin: 0;
+}
+
+.positioner {
+  background: #3c3c3c;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  height: 800px;
+  width: 800px;
+  border-radius: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  position: relative;
+  background-color: #fafafa;
+}
+
+.card img {
+  position: absolute;
+  width: 800px;
+  width: 800px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: left;
+     object-position: left;
+  -webkit-filter: saturate(3);
+          filter: saturate(3);
+}
+
+.card .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #0000001a;
+}
+
+.card .titlebox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1;
+  position: relative;
+}
+
+.card .titleing {
+  font-family: 'Cinzel', serif;
+  text-shadow: 1px 1px 12px #000000;
+  color: #fafafa;
+  z-index: 1;
+}
+
+.card .titleing.A {
+  color: #fafafaa6;
+  font-size: 37rem;
+  line-height: 26rem;
+  border-radius: 50%;
+  -webkit-box-shadow: 5px 2px 20px #000000;
+  box-shadow: 5px 2px 20px #000000;
+  border: 1rem solid #fafafaa6;
+  background-color: #0000008a;
+}
+
+.card .titleing.J {
+  font-size: 7.5rem;
+  letter-spacing: 1rem;
+  line-height: 8rem;
+  padding-left: 1.2rem;
+  top: 131px;
+  font-weight: 700;
+  position: absolute;
+}
+
+.card .titleing.R {
+  font-size: 7rem;
+  line-height: 7rem;
+  position: relative;
+  letter-spacing: 5rem;
+  font-weight: 700;
+  padding-left: 6rem;
+  position: absolute;
+  bottom: 89px;
+}
+
+.card .titleing.R .Errant {
+  position: absolute;
+  width: 29px;
+  overflow: hidden;
+  top: 0px;
+  left: 81px;
+}
+
+.card .titleing.R .right:after {
+  position: absolute;
+  content: '';
+  width: 58px;
+  border: 0.8rem solid transparent;
+  border-right-color: #fafafa;
+  border-top-color: #fafafa;
+  height: 2rem;
+  left: 90%;
+  top: 8px;
+  border-top-right-radius: 40px;
+  background: transparent;
+  z-index: 0;
+  -webkit-filter: drop-shadow(2px 2px 12px #000000);
+          filter: drop-shadow(2px 2px 12px #000000);
+}
+
+.card .titleing.R .right:before {
+  position: absolute;
+  content: '';
+  width: 58px;
+  border: 0.8rem solid transparent;
+  border-right-color: #fafafa;
+  border-top-color: #fafafa;
+  height: 0rem;
+  left: 85.5%;
+  top: 41px;
+  background: transparent;
+  z-index: 0;
+  -webkit-filter: drop-shadow(2px 2px 12px #000000);
+          filter: drop-shadow(2px 2px 12px #000000);
+}
+
+.card .titleing.R .right .right-feathers:after {
+  position: absolute;
+  content: '';
+  width: 0px;
+  border: 0.8rem solid transparent;
+  border-right-color: #fafafa;
+  border-top: #fafafa;
+  height: 159px;
+  left: 86.5%;
+  top: 67px;
+  background: transparent;
+  z-index: 0;
+  -webkit-filter: drop-shadow(2px 2px 12px #000000);
+          filter: drop-shadow(2px 2px 12px #000000);
+}
+
+.card .titleing.R .right .right-feathers:before {
+  position: absolute;
+  content: '';
+  width: 0px;
+  border: 0.8rem solid transparent;
+  border-right-color: #fafafa;
+  border-top: #fafafa;
+  height: 113px;
+  left: 90.5%;
+  top: 67px;
+  background: transparent;
+  z-index: 0;
+  -webkit-filter: drop-shadow(2px 2px 12px #000000);
+          filter: drop-shadow(2px 2px 12px #000000);
+}
+
+.card .titleing.R .left:after {
+  position: absolute;
+  content: '';
+  width: 58px;
+  border: 0.8rem solid transparent;
+  border-left-color: #fafafa;
+  border-top-color: #fafafa;
+  height: 2rem;
+  right: 90%;
+  top: 8px;
+  border-top-left-radius: 40px;
+  background: transparent;
+  z-index: 0;
+  -webkit-filter: drop-shadow(2px 2px 12px #000000);
+          filter: drop-shadow(2px 2px 12px #000000);
+}
+
+.card .titleing.R .left:before {
+  position: absolute;
+  content: '';
+  width: 58px;
+  border: 0.8rem solid transparent;
+  border-left-color: #fafafa;
+  border-top-color: #fafafa;
+  height: 0rem;
+  right: 85.5%;
+  top: 41px;
+  background: transparent;
+  z-index: 0;
+  -webkit-filter: drop-shadow(2px 2px 12px #000000);
+          filter: drop-shadow(2px 2px 12px #000000);
+}
+
+.card .titleing.R .left .left-feathers:after {
+  position: absolute;
+  content: '';
+  width: 0px;
+  border: 0.8rem solid transparent;
+  border-left-color: #fafafa;
+  border-top: #fafafa;
+  height: 159px;
+  right: 86.5%;
+  top: 67px;
+  background: transparent;
+  z-index: 0;
+  -webkit-filter: drop-shadow(2px 2px 12px #000000);
+          filter: drop-shadow(2px 2px 12px #000000);
+}
+
+.card .titleing.R .left .left-feathers:before {
+  position: absolute;
+  content: '';
+  width: 0px;
+  border: 0.8rem solid transparent;
+  border-left-color: #fafafa;
+  border-top: #fafafa;
+  height: 113px;
+  right: 90.5%;
+  top: 67px;
+  background: transparent;
+  z-index: 0;
+  -webkit-filter: drop-shadow(2px 2px 12px #000000);
+          filter: drop-shadow(2px 2px 12px #000000);
+}
+/*# sourceMappingURL=ajr_styles.css.map */
